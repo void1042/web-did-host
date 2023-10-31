@@ -1,0 +1,33 @@
+{
+   "@context":[
+      "https://www.w3.org/ns/did/v1",
+      "https://w3id.org/security/v2",
+      "https://w3id.org/security/suites/secp256k1recovery-2020/v2"
+   ],
+   "id":"did:web:void1042.github.io:web-did-host:client",
+   "verificationMethod":[
+      {
+         "id":"did:web:void1042.github.io:web-did-host:client#0401c13508a696794de30d8874199ff280a71e568118b296f80b9b4737048675068b64a13c293d543a1548608d692cb3b9e05bfb975ad02920eb6a32b4e0f7ffd2",
+         "type":"EcdsaSecp256k1VerificationKey2019",
+         "controller":"did:web:void1042.github.io:web-did-host:client",
+         "publicKeyHex":"0401c13508a696794de30d8874199ff280a71e568118b296f80b9b4737048675068b64a13c293d543a1548608d692cb3b9e05bfb975ad02920eb6a32b4e0f7ffd2"
+      }
+   ],
+   "authentication":[
+      "did:web:void1042.github.io:web-did-host:client#0401c13508a696794de30d8874199ff280a71e568118b296f80b9b4737048675068b64a13c293d543a1548608d692cb3b9e05bfb975ad02920eb6a32b4e0f7ffd2"
+   ],
+   "assertionMethod":[
+      "did:web:void1042.github.io:web-did-host:client#0401c13508a696794de30d8874199ff280a71e568118b296f80b9b4737048675068b64a13c293d543a1548608d692cb3b9e05bfb975ad02920eb6a32b4e0f7ffd2"
+   ],
+   "keyAgreement":[
+      
+   ],
+   "service":[
+      {
+         "id":"123",
+         "type":"DIDCommMessaging",
+         "serviceEndpoint":"http://localhost:8081/didcomm",
+         "description":null
+      }
+   ]
+}
