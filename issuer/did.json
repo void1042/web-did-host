@@ -1,32 +1,31 @@
 {
    "@context":[
       "https://www.w3.org/ns/did/v1",
-      "https://w3id.org/security/v2",
-      "https://w3id.org/security/suites/secp256k1recovery-2020/v2"
+      "https://w3id.org/security/suites/ed25519-2018/v1"
    ],
    "id":"did:web:void1042.github.io:web-did-host:issuer",
    "verificationMethod":[
       {
-         "id":"did:web:void1042.github.io:web-did-host:issuer#044c6d5dec2aae7b5d7f29d3ab60bd9d30da74e7d11bcab12aab8c8018149ef980b14859fb5294dd83e0f04591ccca891535994c7c3011aaae1f1eb03c707d8df0",
-         "type":"EcdsaSecp256k1VerificationKey2019",
+         "id":"did:web:void1042.github.io:web-did-host:issuer#5932972c2e8740dcb81daecad3cff781630401659a896a12f4d928d65d044d58",
+         "type":"Ed25519VerificationKey2018",
          "controller":"did:web:void1042.github.io:web-did-host:issuer",
-         "publicKeyHex":"044c6d5dec2aae7b5d7f29d3ab60bd9d30da74e7d11bcab12aab8c8018149ef980b14859fb5294dd83e0f04591ccca891535994c7c3011aaae1f1eb03c707d8df0"
+         "publicKeyBase58":"71C2btHdxXfLJaB5cFnFGfEiJQwBRSxhEwYhwqzDzFK5"
       }
    ],
    "authentication":[
-      "did:web:void1042.github.io:web-did-host:issuer#044c6d5dec2aae7b5d7f29d3ab60bd9d30da74e7d11bcab12aab8c8018149ef980b14859fb5294dd83e0f04591ccca891535994c7c3011aaae1f1eb03c707d8df0"
+      "did:web:void1042.github.io:web-did-host:issuer#5932972c2e8740dcb81daecad3cff781630401659a896a12f4d928d65d044d58"
    ],
    "assertionMethod":[
-      "did:web:void1042.github.io:web-did-host:issuer#044c6d5dec2aae7b5d7f29d3ab60bd9d30da74e7d11bcab12aab8c8018149ef980b14859fb5294dd83e0f04591ccca891535994c7c3011aaae1f1eb03c707d8df0"
+      "did:web:void1042.github.io:web-did-host:issuer#5932972c2e8740dcb81daecad3cff781630401659a896a12f4d928d65d044d58"
    ],
    "keyAgreement":[
-      
+      "did:web:void1042.github.io:web-did-host:issuer#5932972c2e8740dcb81daecad3cff781630401659a896a12f4d928d65d044d58"
    ],
    "service":[
       {
          "id":"123",
          "type":"DIDCommMessaging",
-         "serviceEndpoint":"http://localhost:8081/didcomm",
+         "serviceEndpoint":"http://localhost:8080/didcomm",
          "description":null
       }
    ]
