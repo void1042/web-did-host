@@ -1,26 +1,25 @@
 {
    "@context":[
       "https://www.w3.org/ns/did/v1",
-      "https://w3id.org/security/v2",
-      "https://w3id.org/security/suites/secp256k1recovery-2020/v2"
+      "https://w3id.org/security/suites/ed25519-2018/v1"
    ],
    "id":"did:web:void1042.github.io:web-did-host:client",
    "verificationMethod":[
       {
-         "id":"did:web:void1042.github.io:web-did-host:client#0401c13508a696794de30d8874199ff280a71e568118b296f80b9b4737048675068b64a13c293d543a1548608d692cb3b9e05bfb975ad02920eb6a32b4e0f7ffd2",
-         "type":"EcdsaSecp256k1VerificationKey2019",
+         "id":"did:web:void1042.github.io:web-did-host:client#28da4b9f6bf6687b5ad36463b37d1089d07d4c1bcd3782ae6823ee8a07a8bdb2",
+         "type":"Ed25519VerificationKey2018",
          "controller":"did:web:void1042.github.io:web-did-host:client",
-         "publicKeyHex":"0401c13508a696794de30d8874199ff280a71e568118b296f80b9b4737048675068b64a13c293d543a1548608d692cb3b9e05bfb975ad02920eb6a32b4e0f7ffd2"
+         "publicKeyBase58":"3kUNRu2u7pDq7daamPApfDw1HC9TD2NriRZ9QexzzYyF"
       }
    ],
    "authentication":[
-      "did:web:void1042.github.io:web-did-host:client#0401c13508a696794de30d8874199ff280a71e568118b296f80b9b4737048675068b64a13c293d543a1548608d692cb3b9e05bfb975ad02920eb6a32b4e0f7ffd2"
+      "did:web:void1042.github.io:web-did-host:client#28da4b9f6bf6687b5ad36463b37d1089d07d4c1bcd3782ae6823ee8a07a8bdb2"
    ],
    "assertionMethod":[
-      "did:web:void1042.github.io:web-did-host:client#0401c13508a696794de30d8874199ff280a71e568118b296f80b9b4737048675068b64a13c293d543a1548608d692cb3b9e05bfb975ad02920eb6a32b4e0f7ffd2"
+      "did:web:void1042.github.io:web-did-host:client#28da4b9f6bf6687b5ad36463b37d1089d07d4c1bcd3782ae6823ee8a07a8bdb2"
    ],
    "keyAgreement":[
-      
+      "did:web:void1042.github.io:web-did-host:client#28da4b9f6bf6687b5ad36463b37d1089d07d4c1bcd3782ae6823ee8a07a8bdb2"
    ],
    "service":[
       {
